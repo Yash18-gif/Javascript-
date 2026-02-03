@@ -41,16 +41,20 @@
 
 // Qs1. Print all even numbers from 0 to 100.
 
-// for(let e = 0;e<=100;e++){
-//     if(e%2===0){
-//         console.log(e);
+// for(let i=0;i<=100;i++){
+//     if(i%2===0){
+//         console.log(i);
 //     }
 // }
 
 // Create a game where you start with any random game number. Ask the user to keep
 // guessing the game number until the user enters correct value.
 
-let user = prompt("guessthenumber");
-let random = 37;
+// let guess = prompt("Enter a number");
+// let number = 30
 
-for(us)
+// if(guess==number){
+//     console.log("You WON!!!!");
+// }else{
+//     console.log("You lost");
+// }
