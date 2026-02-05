@@ -58,3 +58,39 @@
 // }else{
 //     console.log("You lost");
 // }
+
+// Another way to do this:
+
+// let guess = prompt("Enter a number");
+// let number = 30
+
+// while(guess!=number){
+//     guess=prompt("You Enter wrong number");
+// }
+
+// console.log("Congratulations You WON!!!");
+
+// Qs1. Prompt the user to enter their full name. Generate a username for them based on the input.
+// Start username with @, followed by their full name and ending with the fullname length.
+
+// let fullName = prompt("Enter your fullname?");
+
+// let length = fullName.length;
+
+// let username = "@"+fullName+length;
+// console.log(username);
+
+// let str = "hello";
+// for(i=0;i<str.length;i++){
+//     console.log(str[i]);
+// }
+
+// Qs. For a given array with marks of students -> [85, 97, 44, 37, 76, 60]
+// Find the average marks of the entire class.
+
+marks = [85,97,44,37,76,60];
+let avg = 0
+for(let idx = 0; idx<marks.length;idx++){
+    avg += marks[idx]/6
+}
+console.log(avg);
